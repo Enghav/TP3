@@ -1,0 +1,21 @@
+.large{
+    display: flex;
+    margin: 20px;
+    border: 1px solid rgb(224, 212, 212);
+    border-radius: 4px;
+}
+.default{
+    display: flex;
+    margin: 20px;
+    border: 1px solid rgb(224, 212, 212);
+    border-radius: 4px;
+    height: 30px;
+}
+
+.small{
+    display: flex;
+    margin: 20px;
+    border: 1px solid rgb(224, 212, 212);
+    border-radius: 4px;
+    height: 25px;
+}

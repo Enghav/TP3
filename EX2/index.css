@@ -1,0 +1,12 @@
+.H2{
+    border: 1px solid #cfc3c3;
+    background-color: #858080;
+}
+.vertical{
+    border-radius: 4px;
+    background-color: rgb(63, 63, 211); 
+    width: 70px; 
+    padding: 10px; 
+    margin: 20px;
+    color: #ffff;
+}
