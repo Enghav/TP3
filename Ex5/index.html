@@ -13,9 +13,35 @@
     <div class="login">
         <h1>Welcome back!</h1>
         <p>please enter your credentials to access your account</p>
-        <div>
-
+        <div class="sign">
+            <img src="../image/google.png" alt="">
+            <p > Sign in with google</p>
         </div>
+        <div id="divider">
+            <div id="left"></div>
+            <div id="center">Or</div>
+            <div id="right"></div>
+          </div>
+          <form>
+          <div>
+            <div class="form-group">
+                <label for="email">Email*</label>
+                <input type="text" id="email" name="email" placeholder="Example@gmail.com" required>
+              </div>
+              <div class="form-group">
+                <label for="password">Password*</label>
+                <input type="password" id="password" name="password" placeholder="Min 8 char" required>
+              </div>
+              <div style="display: flex; font-size: 10px;">
+               <label style="width:50%;"><input type="checkbox"><span> Remember me </span></label>
+               <label class="fpw"><a href="#">Forget password?</a></label>
+              </div> 
+              
+              <input type="submit" value="Sign in">
+              <label class="res">Not register yet?<a href="#">Create an account.</a></label>
+          </div>
+        </form>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
