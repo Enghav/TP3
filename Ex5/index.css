@@ -1,86 +1,94 @@
-.login{
-  margin-top: 90px;
-  margin-left: 90px; 
+img {
+  width: 350px;
+  margin-left: 20px;
 }
-p{
-    font-size: 10px;
+.icon10{
+  width: 40px;
 }
-.sign{
-    display: flex;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding-top: 2px;
-    width:230px;
-    height :25px;
-    padding-left:60px ;
+p {
+  font-size: 10px;
 }
-img{
-    width: 20px;
-    height: 20px;
-    padding-bottom: 2px;
+.sign {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding-top: 4px;
+  width: 230px;
+  height: 25px;
+  padding-left: 40px;
 }
-  #divider div:is(#left, #center, #right) {
-    display: inline-block;
-  }
-  #divider{
-    width: 275px;
-  }
-  #left,
-  #right {
-    width: 38%;
-    height: 5px;
-    border: none;
-    border-top: 1px solid lightgray;
-  }
-  
-  #center {
-    /* width: 20%; */
-    color: grey;
-    text-align: center;
-    font-size:10px;
-  }
-  form{
-    width: 230px;
-  }
-  .form-group {
-    margin-bottom: 15px;
-  }
-  label {
-    display: block;
-    font-style: oblique;
+.img1 {
+  width: 20px;
+  height: 20px;
+  padding-bottom: 2px;
+}
+#divider div:is(#left, #center, #right) {
+  display: inline-block;
+}
+#divider {
+  width: 275px;
+}
+#left,
+#right {
+  width: 38%;
+  height: 5px;
+  border: none;
+  border-top: 1px solid lightgray;
+}
 
-    margin-bottom: 5px;
-  }
-  
-  input[type="text"],
-  input[type="password"] {
-    width: 100%;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  input[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    background-color: #4652bd;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  input[type="checkbox"] {
-    background-color: rgb(205, 83, 205);
-  }
-  .fpw a {
-    text-decoration: none;
-    margin-left: 40px;
-    color: #4652bd;
-  }
-  .res
-  {
-    font-size: 10px;
-    
-  }
-  .res a{
-    text-decoration: none;
-  }
+#center {
+  /* width: 20%; */
+  color: grey;
+  text-align: center;
+  font-size: 10px;
+}
+form {
+  width: 230px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  font-style: oblique;
+
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #4652bd;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+input[type="checkbox"] {
+  background-color: rgb(205, 83, 205);
+}
+.fpw a {
+  text-decoration: none;
+  margin-left: 40px;
+  color: #4652bd;
+}
+.res {
+  font-size: 10px;
+}
+.res a {
+  text-decoration: none;
+}
+
+.mem {
+  display: flex;
+  margin-top: 90px;
+  margin-left: 300px;
+  /* justify-content: space-around; */
+}
